@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MiniMapGame</string>
+    <string name="join_room">Join room</string>
+    <string name="create_room">Create room</string>
+    <string name="enter_the_room_id">Enter the room id</string>
+    <string name="enter_the_room_name">Enter the room name</string>
 </resources>

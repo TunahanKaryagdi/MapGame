@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.tunahankaryagdi.minimapgame.presentation.screen.MapScreen
+import com.tunahankaryagdi.minimapgame.presentation.screen.WelcomeScreen
 import com.tunahankaryagdi.minimapgame.presentation.theme.MiniMapGameTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MapScreen()
+                    WelcomeScreen()
                 }
             }
         }
